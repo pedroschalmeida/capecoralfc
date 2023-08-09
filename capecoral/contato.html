@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Contato</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="contato.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="img/cape_coral_escudo-removebg-preview.png" alt="Logo Cape" class="logo" id="logocape">
+        </a>
+        <h1>Contato</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="noticias.html">Notícias</a></li>
+            <li><a href="elenco.html">Elenco</a></li>
+            <li><a href="historia.html">História</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="torcida.html">Torcida</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="contact-section">
+            <h2>Contato</h2>
+            <div class="contact-buttons">
+                <a href="https://www.instagram.com/capecoralfc/" class="contact-button">
+                    <img src="img/logo-instagram-png-fundo-transparente.png" alt="Instagram">
+                </a>
+                <a href="https://www.contate.me/ierfc" class="contact-button">
+                    <img src="img/WhatsApp.svg.webp" alt="WhatsApp">
+                </a>
+                <a href="mailto:seuemail@gmail.com" class="contact-button">
+                    <img src="img/Gmail-Logo.png" alt="Gmail" id="gmail">
+                </a>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Envie-nos uma mensagem</h2>
+            <form action="enviar_mensagem.php" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Cape Coral FC, todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
